@@ -1,42 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jayavanth Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Hi, I'm Jayavanth 👋</h1>
-    <p>Aspiring Web Developer | Tech Enthusiast</p>
-  </header>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am passionate about building web applications and exploring new technologies. 
-       Currently learning Git, GitHub, and frontend development.</p>
-  </section>
+header {
+  background: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><b>Portfolio Website</b> – This live website hosted on GitHub Pages.</li>
-      <li><b>Todo App</b> – A simple task management app (coming soon).</li>
-      <li><b>Weather App</b> – Fetches real-time weather data using APIs (coming soon).</li>
-    </ul>
-  </section>
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:jayavanth@example.com">jayavanth@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
-  </section>
+h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
 
-  <footer>
-    <p>&copy; 2025 Jayavanth Portfolio | All Rights Reserved</p>
-  </footer>
-</body>
-</html>
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+}
+
 
